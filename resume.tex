@@ -1,0 +1,147 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Formatting Setup ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    textbordercolor={1 1 1}
+}
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Section layout customization
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% List layout customization
+\setlist[itemize]{leftmargin=0.15in, noitemsep, topsep=0pt}
+
+\pagestyle{empty} % Remove page numbers
+
+\begin{document}
+
+% === HEADER ===
+\begin{center}
+    {\Large \bfseries Paolo Caraos} \\ \vspace{2pt}
+    {\small Wilmington, CA | (310) 954-7453 | \href{mailto:paolocaraos@gmail.com}{paolocaraos@gmail.com}}
+\end{center}
+
+
+% === WORK EXPERIENCE ===
+\section{Work Experience}
+
+% Role 1
+\noindent
+\textbf{Full-Stack Web Developer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill March 2023 -- Present
+\begin{itemize}
+    \item Engineered a normalized database schema in Microsoft SQL Server using Entity Framework Core.
+    \item Developed a NIST RMF-compliant and cloud platform-ready Dockerized web application.
+    \item Implemented OAuth 2.0-based authentication scheme using KeyCloak for an ASP.NET app.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 2
+\noindent
+\textbf{Software Developer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill March 2022 -- March 2023
+\begin{itemize}
+    \item Improved version management of in-house NuGet packages by migrating source code to a mono-repo.
+    \item Integrated with multiple Azure DevOps pipelines to manage unit testing and packaging.
+    \item Provided expertise in web development and HTTP, coordinating with System Engineers to determine appropriate system architecture to meet client requirements.
+    \item Developed an ASP.NET web application and configured IIS Server to host it.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 3
+\noindent
+\textbf{Full-Stack Web Developer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill May 2021 -- March 2022
+\begin{itemize}
+    \item Sustained a legacy codebase encompassing Angular, Marionette, and ASP.NET server components.
+    \item Successfully integrated feature-flagged software requirements in a project serving multiple clients.
+    \item Developed a Section 508-compliant web application.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 4
+\noindent
+\textbf{Back-end Engineer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill June 2020 -- March 2022
+\begin{itemize}
+    \item Built infrastructure for a Dockerized documents processing pipeline (OCR, NLP, Entity extraction, GraphDB and Elasticsearch).
+    \item Tutored best practices for software development (Git Workflow, coding design patterns) to data scientists.
+    \item Developed internal standard Python library to support 8+ repositories.
+    \item Maintained and automated the deployment of Docker images to AWS GovCloud ECS instances using Jenkins.
+    \item Implemented OAuth 2.0 authentication standard for Angular web app using NGINX Plus and AWS Cognito.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 5
+\noindent
+\textbf{Full-Stack Web Developer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill June 2020 -- May 2021
+\begin{itemize}
+    \item Deployed a Full-stack Dockerized Web application (Nginx, Angular, WSGI) to a classified government network.
+    \item Led the team's adoption of a Scrum/Kanban hybrid process.
+    \item Maintained 100\% documentation coverage for codebase (Python, TypeScript) using CompoDoc and Swagger.
+    \item Designed a modern front-end data analytics dashboard using D3js.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 6
+\noindent
+\textbf{Infrastructure Engineer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill March 2020 -- June 2020
+\begin{itemize}
+    \item Designed a requirements tracing tool that linked source code to requirements by parsing Doxygen documentation with Python.
+    \item Developed a Jenkins shared library consisting of commonly used methods for Jenkinsfiles.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 7
+\noindent
+\textbf{Full-Stack Web Developer} -- \textit{Booz Allen Hamilton}, El Segundo, CA \hfill February 2019 -- March 2020
+\begin{itemize}
+    \item Developed a Dockerized web application with microservices architecture for computer network mapping using GoJS and Angular.
+    \item In the absence of a technical lead, raised concerns and structural solutions in our software system and software development processes like the Git workflow and Jira ticketing.
+    \item Documented software design patterns and coding practices in 2-week Agile sprints.
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 8
+\noindent
+\textbf{Associate Software Developer} -- \textit{General Atomics Aeronautical Systems Inc.}, San Diego, CA \hfill August 2018 -- November 2018
+\begin{itemize}
+    \item Maintained requirements-traceable Python test cases and documented test plans in DOORS.
+    \item Developed and maintained flight test simulation software written in C.
+    \item Tested \& debugged complex software systems with Python, Eclipse, Linux debug tools, and Jenkins.
+\end{itemize}
+
+% === EDUCATION ===
+\section{Education}
+\noindent
+\textbf{University of California, Irvine} \hfill Sept. 2014 -- June 2018 \\
+Bachelor of Science, Computer Engineering, Class of 2018 \\
+\textit{GPA 3.5, Dean's Honor List} \hfill Irvine, CA
+
+% === TECHNICAL SKILLS ===
+\section{Technical Skills}
+\begin{small}
+\noindent \textbf{Languages \& Frameworks:} C\#, TypeScript, Python, GoJS, Angular, ASP.NET Core, LINQ, HTML5, SCSS/CSS \\
+\noindent \textbf{Data Systems:} MS SQL Server, MySQL, MongoDB, Elasticsearch, CouchDB, Entity Framework (EF) Core \\
+\noindent \textbf{DevOps \& Cloud:} Docker, CI/CD (Jenkins, Azure DevOps), Nginx, AWS (GovCloud, ECS, Cognito), IIS, BASH, PowerShell \\
+\noindent \textbf{Architecture \& Security:} OAuth 2.0, KeyCloak, REST APIs, Microservices, NIST RMF Compliance, Section 508, Agile/Scrum
+\end{small}
+
+
+\end{document}

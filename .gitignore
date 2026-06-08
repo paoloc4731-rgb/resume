@@ -1,0 +1,54 @@
+# LaTeX intermediate files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.idx
+*.ilg
+*.ind
+*.synctex.gz
+*.fdb_latexmk
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.glg
+*.glo
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+*.loa
+*.lof
+*.maf
+*.mtc*
+*.run.xml
+*.biblatex
+
+# Temporary editor files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Build directories
+_build/
+output/
+texbuild/
+
+# PythonTeX
+pythontex-files/
+*.pytxcode
+
+# Minted and Pygments cache
+_minted-
+*.pyg
+*.pdf
